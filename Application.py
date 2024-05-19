@@ -113,10 +113,11 @@ with st.spinner('Preparing predictions...'):
     data_training_array, Scaler = scale_data(data_training)
     x_test, y_test = prepare_test_data(data_training, data_testing, Scaler)
 
+#Loading Trained Model 
 model = load_model('Keras_LSTM_Model.keras')
 
 
- #Testing Part
+#Testing Part
 past_100_days = data_training.tail(100)
 final_df = pd.concat([past_100_days, data_testing], ignore_index=True)
 input_data=Scaler.fit_transform(final_df)
