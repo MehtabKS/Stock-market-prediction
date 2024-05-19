@@ -1,0 +1,68 @@
+import numpy as np
+import pandas as pd
+import datetime as dt
+import matplotlib.pyplot as plt
+import pandas_datareader as pdr
+import yfinance as yf
+from keras.models import load_model
+import streamlit as st
+from sklearn.preprocessing import MinMaxScaler
+import time
+
+NumPy:
+o NumPy is a powerful library for numerical computing in
+Python.
+o It provides support for large, multi-dimensional arrays and
+matrices, along with mathematical functions to operate on these
+arrays.
+
+Pandas:
+o Pandas is a data manipulation and analysis library for Python.
+o It offers data structures like DataFrame and Series, making it
+efficient for working with structured data.
+
+Datetime:
+o The datetime module provides classes to work with dates and
+times.
+o It is commonly used for handling time-related operations in data
+analysis and manipulation.
+
+Matplotlib:
+o Matplotlib is a plotting library for creating static, animated, and
+interactive visualizations in Python.
+o The pyplot module provides a MATLAB-like interface for
+making plots.
+
+Pandas DataReader:
+o Pandas DataReader is a module that provides access to financial
+data from various online sources.
+o It is often used for fetching stock market data for analysis.
+
+yfinance:
+o yfinance is a Python library that allows easy access to Yahoo
+Finance data.
+o It simplifies the process of downloading historical stock data
+and financial information from Yahoo Finance.
+
+Keras Load Model:
+o Keras is a high-level neural networks API.
+o The load_model function is used to load a pre-trained neural
+network model saved in the Hierarchical Data Format (HDF5)
+format.
+
+Streamlit:
+o Streamlit is a Python library for creating web applications for
+data science and machine learning.
+o It simplifies the process of turning data scripts into shareable
+web apps.
+
+MinMaxScaler:
+o MinMaxScaler is a preprocessing technique in scikit-learn for
+scaling numerical data.
+o It transforms features by scaling them to a specified range like
+[0, 1].
+
+Time:
+o The time module provides various time-related functions.
+o It is used for introducing delays in the code execution, as seen
+in the Streamlit app's loading spinner.
